@@ -1,7 +1,7 @@
 local dfpwm = require("cc.audio.dfpwm")
 local speaker = peripheral.find("speaker")
 
-file = http.get("https://github.com/ACrazyCat1/ccsounds/raw/main/"..arg[1].."dfpwm",nil,true)
+file = http.get("https://github.com/ACrazyCat1/ccsounds/raw/main/"..arg[1]..".dfpwm",nil,true)
 
 local decoder = dfpwm.make_decoder()
 while true do
